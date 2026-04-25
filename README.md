@@ -19,18 +19,30 @@ Güncelleme: "Düzenle" butonuna bastığında yukarıda değişiyor.
 Silme: "Sil" butonuyla görevleri listeden kaldırabiliyorsun.
 
 PROJE YAPISI
+
 todo-app/
 ├── node_modules/    <--KÜTÜPHANE KLASÖRÜ
+
 ├── public/          <--GENEL VARLIKLAR KLASÖRÜ
+
 ├── src/             <--KAYNAK KOD KLASÖRÜ
+
 │   ├── components/  <-- BİLEŞEN KLASÖRÜ
+
 │   ├── interfaces/  <-- ARAYÜZ/TİP KLASÖRÜ
+
 │   ├── pages/       <-- SAYFALAR KLASÖRÜ
+
 │   ├── App.jsx      <-- ANA UYGULAMALAR DOSYASI
+
 │   ├── main.jsx     <-- PROJENİN BAŞLADIĞI İLK DOSYA GİRİŞ DOSYASI
+
 │   └── index.css    <-- STİLL DOSYASI
+
 |   |__ index.html   <-- ANA SAYFA ŞABLONU
+
 ├── package.json     <--PROJE KİMLİK KARTI
+
 └── tailwind.config.js <-- TASARIM AYARLARI
 
 Projenin ölçeklenebilir ve düzenli olması için bileşenleri (components), sayfaları (pages) ve
